@@ -29,6 +29,28 @@ body {
   justify-content: space-evenly;
 }
 
+@media (max-width: 500px) {
+  .app {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+}
+@media (max-width: 300px) {
+  .app {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+  .score-section {
+    font-size: 18px;
+  }
+}
+
 .score-section {
   display: flex;
   font-size: 24px;
